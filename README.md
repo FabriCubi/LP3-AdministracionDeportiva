@@ -1,4 +1,4 @@
-# LP3-AdministracionDeportiva  
+# LP3-AdministracionDeportiva   (Sujeto a cambios)
 Sistema de intercambio de jugadores de fútbol.  [ U.C.A ]
 (FALTA documentación para el dia de la exposición- Coming Soon!)
 
