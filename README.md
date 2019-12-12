@@ -22,14 +22,14 @@ Sistema de intercambio de jugadores de fútbol.  [ U.C.A ]
 1. POST >>>  http://localhost:8080/persona/crear  
 
 	{    
-    "cedulaIdentidad" : "12345",  
-	"nombreApellido":"Juan Perez",  
+    "cedulaIdentidad" : "1337404",  
+	"nombreApellido":"your name here",  
 	"fechaNacimiento" :"23/11/1998",  
 	"telefono" : "0982 xxx xxx",  
-	"domicilio" : "Asuncion"  
+	"domicilio" : "Where you live?"  
 	}  
 	
-2. http://localhost:8080/persona/consulta?ci=12345
+2. http://localhost:8080/persona/consulta?ci=1337404
 
 
 AUTORES:
