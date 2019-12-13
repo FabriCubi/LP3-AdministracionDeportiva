@@ -28,7 +28,7 @@ Sistema de intercambio de jugadores de fútbol.  [ U.C.A ]
 	"telefono" : "0982 xxx xxx",  
 	"domicilio" : "Gotham City"  
 	}  
-	
+----	
 2. POST >> http://localhost:8080/empleado/guardar
 	{
 	"cedulaIdentidad" : "123456",
@@ -75,7 +75,6 @@ Sistema de intercambio de jugadores de fútbol.  [ U.C.A ]
 	"domicilio" : "Asuncion" ,
 	"salario" : 123
 	}
-
 
 6.POST >> http://localhost:8080/equipo/guardar
 	{
