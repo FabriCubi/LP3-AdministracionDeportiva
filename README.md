@@ -19,7 +19,7 @@ Sistema de intercambio de jugadores de fútbol.  [ U.C.A ]
 ********************** SERVICES
 ----
 
-1. POST >>>  http://localhost:8080/persona/crear  
+1.POST >>>  http://localhost:8080/persona/crear  
 
 	{    
     	"cedulaIdentidad" : "1337000",  
@@ -29,7 +29,7 @@ Sistema de intercambio de jugadores de fútbol.  [ U.C.A ]
 	"domicilio" : "Gotham City"  
 	}  
 ----	
-2. POST >> http://localhost:8080/empleado/guardar
+2.POST >> http://localhost:8080/empleado/guardar
 	{
 	"cedulaIdentidad" : "123456",
 	"nombreApellido":"Pedro Perez",
