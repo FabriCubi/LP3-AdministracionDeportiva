@@ -1,5 +1,6 @@
-# LP3-AdministracionDeportiva
+# LP3-AdministracionDeportiva   (Sujeto a cambios)
 Sistema de intercambio de jugadores de fútbol.  [ U.C.A ]
+(FALTA documentación para el dia de la exposición- Coming Soon!)
 
 ******************* Instrucciones 
 ----
@@ -13,7 +14,7 @@ Sistema de intercambio de jugadores de fútbol.  [ U.C.A ]
 8. mvn clean install
 9. Cambiarse a la carpeta /target
 10. java -jar administracion-deportiva-0.0.1-SNAPSHOT.jar
-11. Usar?
+11. Usar, donde y cuando?
 
 ********************** SERVICES
 ----
@@ -21,14 +22,14 @@ Sistema de intercambio de jugadores de fútbol.  [ U.C.A ]
 1. POST >>>  http://localhost:8080/persona/crear  
 
 	{    
-    "cedulaIdentidad" : "12345",  
-	"nombreApellido":"Juan Perez",  
-	"fechaNacimiento" :"23/11/1998",  
+    	"cedulaIdentidad" : "1337000",  
+	"nombreApellido":"Bruce Wayne",  
+	"fechaNacimiento" :"27/05/1939",  
 	"telefono" : "0982 xxx xxx",  
-	"domicilio" : "Asuncion"  
+	"domicilio" : "Gotham City"  
 	}  
 	
-2. http://localhost:8080/persona/consulta?ci=12345
+2. http://localhost:8080/persona/consulta?ci=1337000
 
 
 AUTORES:
