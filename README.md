@@ -66,6 +66,7 @@ Sistema de intercambio de jugadores de fútbol.  [ U.C.A ]
 	}
 
 ----
+
 5.POST >> http://localhost:8080/director/guardar
 	{
 	"cedulaIdentidad" : "12345678",
@@ -75,6 +76,7 @@ Sistema de intercambio de jugadores de fútbol.  [ U.C.A ]
 	"domicilio" : "Asuncion" ,
 	"salario" : 123
 	}
+	
 ----
 6.POST >> http://localhost:8080/equipo/guardar
 	{
