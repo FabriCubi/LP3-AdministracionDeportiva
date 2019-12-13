@@ -1,4 +1,4 @@
-# LP3-AdministracionDeportiva   (Me quede sin LUZ)
+# LP3-AdministracionDeportiva  
 Sistema de intercambio de jugadores de fútbol. 
 (FALTA documentación para el dia de la exposición- Coming Soon!)
 
