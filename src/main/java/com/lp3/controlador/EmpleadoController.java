@@ -45,7 +45,31 @@ public class EmpleadoController {
 	        	return empleadoService.crearEmpleado(empleado);
 
 	        }catch (Exception e) {
-	            logger.error("Error al crear empleado", e);
+	            logger.error("Error al guardar empleado", e);
+	            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
+	        }
+	    }
+	 @GetMapping(value ="todos", produces = MediaType.APPLICATION_JSON_VALUE)
+	  public Object obtenerTodosLosEmpleados() {
+	        try {
+	            
+	        	return empleadoService.listarTodosLosEmpleados();
+
+	        }catch (Exception e) {
+	            logger.error("Error al consultar empleado", e);
+	            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
+	        }
+	    }
+	 
+
+     @GetMapping(value = "promedio", produces = MediaType.APPLICATION_JSON_VALUE)
+	  public Object obtenerPromedioEmpleado(@RequestParam("cargo") String cargo) {
+	        try {
+	            
+	        	return empleadoService.listarPromedioPorEmpleado(cargo);
+
+	        }catch (Exception e) {
+	            logger.error("Error al consultar empleado", e);
 	            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
 	        }
 	    }

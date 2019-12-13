@@ -16,8 +16,8 @@ public class PersonaService {
 	PersonaDAO personaDAO;
 	
 	public Persona consultarPersona(String ci) {
-		//Retorna una persona por CI, y null si no existe
-		return personaDAO.findById(ci).orElse(null);
+		//Retorna una persona por CI, y vacio si no existe
+		return personaDAO.findById(ci).orElse(new Persona());
 	}
 	
 	public Persona crearPersona(Persona persona) {
@@ -27,8 +27,8 @@ public class PersonaService {
 			
 		}catch(Exception e) {
 			logger.error("Error creando Persona: ", e);
+			throw e;
 		}
-		return null;
 	}
 
 }

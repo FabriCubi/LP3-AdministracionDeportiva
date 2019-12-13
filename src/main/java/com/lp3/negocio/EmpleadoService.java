@@ -22,7 +22,7 @@ public class EmpleadoService {
     
 	public Empleado consultarEmpleado(String ci) {
 		
-		return empleadoDAO.findById(ci).orElse(null);
+		return empleadoDAO.findById(ci).orElse(new Empleado());
 	}
 	
 	public Empleado crearEmpleado(Empleado empleado) {

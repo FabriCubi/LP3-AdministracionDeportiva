@@ -19,7 +19,7 @@ public class JugadorService {
 	JugadorDAO jugadorDAO;
 	
 	public Jugador consultarJugador(String ci) {
-		return jugadorDAO.findById(ci).orElse(null);
+		return jugadorDAO.findById(ci).orElse(new Jugador());
 	}
 	
 	public Jugador guardarJugador(Jugador jugador) {

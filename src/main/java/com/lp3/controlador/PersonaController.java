@@ -33,7 +33,7 @@ public class PersonaController {
 	        	return personaService.consultarPersona(cedula);
 
 	        }catch (Exception e) {
-	            logger.error("Error al crear persona", e);
+	            logger.error("Error al consultar persona", e);
 	            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
 	        }
 	    }

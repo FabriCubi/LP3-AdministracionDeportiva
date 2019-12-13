@@ -17,8 +17,8 @@ public class DirectorService {
 	DirectorDAO directorDAO;
 	
 	public Director consultarDirector(String ci) {
-		//Retorna un Director por CI o null si no existe
-		return directorDAO.findById(ci).orElse(null);
+		//Retorna un Director por CI o vacio si no existe
+		return directorDAO.findById(ci).orElse(new Director());
 	}
 	
 	public Director guardarDirector(Director director) {

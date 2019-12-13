@@ -46,7 +46,7 @@ public class DirectorController {
 	        	return directorService.guardarDirector(director);
 
 	        }catch (Exception e) {
-	            logger.error("Error al crear director", e);
+	            logger.error("Error al guardar director", e);
 	            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
 	        }
 	    }

@@ -15,16 +15,28 @@ import com.lp3.modelo.Jugador;
 public class EquipoService {
 	
 	@Autowired
-	EquipoDAO equipoDAO;
+	private EquipoDAO equipoDAO;
 	
 	@Autowired
-	JugadorService jugadorService;
+	private JugadorService jugadorService;
 	
 	
 	public List<Equipo> listarTodosLosEquipos(){
 		
 		return equipoDAO.findAll();
 		
+	}
+	public Equipo getById(String equipo) {
+		
+		return equipoDAO.findById(equipo).orElse(null);
+	}
+	public Equipo guardar(Equipo equipo) {
+		
+	    Equipo equipoEncontrado = equipoDAO.findById(equipo.getEquipo()).orElse(null);
+	    if(equipoEncontrado!=null)
+	    	equipo.setTorneo(equipoEncontrado.getTorneo());
+	    
+	    return equipoDAO.save(equipo);
 	}
 	
 	public PromedioSalarioDTO listarPromedioPorEquipo(String equipo){
