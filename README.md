@@ -1,4 +1,4 @@
-# LP3-AdministracionDeportiva   (Sujeto a cambios -No tengo idea de como mostrar visualmente BIEN el README-)
+# LP3-AdministracionDeportiva   (Me quede sin LUZ)
 Sistema de intercambio de jugadores de fútbol. 
 (FALTA documentación para el dia de la exposición- Coming Soon!)
 
@@ -30,6 +30,7 @@ Sistema de intercambio de jugadores de fútbol.
 	}  
 ----	
 2.POST >> http://localhost:8080/empleado/guardar
+
 	{
 	"cedulaIdentidad" : "123456",
 	"nombreApellido":"Pedro Perez",
@@ -42,6 +43,7 @@ Sistema de intercambio de jugadores de fútbol.
 
 ----
 3.POST >> http://localhost:8080/jugador/guardar
+	
 	{
 	"cedulaIdentidad" : "1234567",
 	"nombreApellido":"Diego Churín",
@@ -55,6 +57,7 @@ Sistema de intercambio de jugadores de fútbol.
 
 ----
 4.POST >> http://localhost:8080/entrenador/guardar
+	
 	{
 	"cedulaIdentidad" : "123455679",
 	"nombreApellido":"Sergio Perez",
@@ -68,6 +71,7 @@ Sistema de intercambio de jugadores de fútbol.
 ----
 
 5.POST >> http://localhost:8080/director/guardar
+	
 	{
 	"cedulaIdentidad" : "12345678",
 	"nombreApellido":"Celso Ayala",
@@ -79,6 +83,7 @@ Sistema de intercambio de jugadores de fútbol.
 	
 ----
 6.POST >> http://localhost:8080/equipo/guardar
+	
 	{
 	"equipo":"Cerro Porteño",
 	"entrenador": "Juan Perez"
@@ -86,6 +91,7 @@ Sistema de intercambio de jugadores de fútbol.
 
 ----
 7.POST >> http://localhost:8080/asociacion/inscripcion
+	
 	{
 	"ci" :"12345",
 	"descripcion: ": "Inscripcion"
@@ -93,6 +99,7 @@ Sistema de intercambio de jugadores de fútbol.
 
 ----
 8.POST >> http://localhost:8080/torneo/guardar
+	
 	{
 	"torneo":"Apertura",
 	"tipo": "Local",
@@ -104,6 +111,7 @@ Sistema de intercambio de jugadores de fútbol.
 
 ----
 9.POST >> http://localhost:8080/torneo/inscripcion
+	
 	{
 	"torneo":"Apertura",
 	"equipo": "CerroPorteño"
