@@ -1,5 +1,5 @@
-# LP3-AdministracionDeportiva   (Sujeto a cambios)
-Sistema de intercambio de jugadores de fútbol.  [ U.C.A ]
+# LP3-AdministracionDeportiva   (Sujeto a cambios -No tengo idea de como mostrar visualmente BIEN el README-)
+Sistema de intercambio de jugadores de fútbol. 
 (FALTA documentación para el dia de la exposición- Coming Soon!)
 
 ******************* Instrucciones 
