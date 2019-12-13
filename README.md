@@ -40,7 +40,7 @@ Sistema de intercambio de jugadores de fútbol.  [ U.C.A ]
 	"cargo" : "Prueba"
 	}
 
-
+----
 3.POST >> http://localhost:8080/jugador/guardar
 	{
 	"cedulaIdentidad" : "1234567",
@@ -53,7 +53,7 @@ Sistema de intercambio de jugadores de fútbol.  [ U.C.A ]
 	"equipo" : "CerroPorteño"
 	}
 
-
+----
 4.POST >> http://localhost:8080/entrenador/guardar
 	{
 	"cedulaIdentidad" : "123455679",
@@ -65,7 +65,7 @@ Sistema de intercambio de jugadores de fútbol.  [ U.C.A ]
 	"equipo" : "CerroPorteño"
 	}
 
-
+----
 5.POST >> http://localhost:8080/director/guardar
 	{
 	"cedulaIdentidad" : "12345678",
@@ -75,21 +75,21 @@ Sistema de intercambio de jugadores de fútbol.  [ U.C.A ]
 	"domicilio" : "Asuncion" ,
 	"salario" : 123
 	}
-
+----
 6.POST >> http://localhost:8080/equipo/guardar
 	{
 	"equipo":"Cerro Porteño",
 	"entrenador": "Juan Perez"
 	}
 
-
+----
 7.POST >> http://localhost:8080/asociacion/inscripcion
 	{
 	"ci" :"12345",
 	"descripcion: ": "Inscripcion"
 	}
 
-
+----
 8.POST >> http://localhost:8080/torneo/guardar
 	{
 	"torneo":"Apertura",
@@ -100,32 +100,32 @@ Sistema de intercambio de jugadores de fútbol.  [ U.C.A ]
 	"puntos": 13
 	}
 
-
+----
 9.POST >> http://localhost:8080/torneo/inscripcion
 	{
 	"torneo":"Apertura",
 	"equipo": "CerroPorteño"
 	}
 
-
+----
 10.GET >> http://localhost:8080/empleado/todos
 
-
+----
 11.GET >> http://localhost:8080/equipo/todos
 
-
+----
 12.GET >> http://localhost:8080/equipo/promedio?equipo=CerroPorteño
 
-
+----
 13.GET >> http://localhost:8080/jugador/promedio?puesto=Arquero
 
-
+----
 14.GET >> http://localhost:8080/empleado/promedio?cargo=Administrativo
 
-
+----
 15.GET >> http://localhost:8080/persona/consulta?ci=1234
 
-
+----
 16.GET >> http://localhost:8080/empleado/consulta?ci=1234
 
 AUTORES:
