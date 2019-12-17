@@ -1,6 +1,6 @@
 # LP3-AdministracionDeportiva  
-Sistema de intercambio de jugadores de fútbol. 
-(FALTA documentación para el dia de la exposición- Coming Soon!)
+Sistema de intercambio de jugadores de Futbol. 
+( Sujetos a cambios)
 
 ******************* Instrucciones 
 ----
