@@ -1,6 +1,6 @@
 # LP3-AdministracionDeportiva  
 Sistema de intercambio de jugadores de Futbol. 
-( Sujetos a cambios)
+      ( Sujetos a cambios)
 
 ******************* Instrucciones 
 ----
