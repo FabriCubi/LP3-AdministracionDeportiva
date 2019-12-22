@@ -47,12 +47,8 @@ public class DirectorController {
 	        	return directorService.guardarDirector(director);
 
 	        }catch (Exception e) {
-<<<<<<< HEAD
-	            logger.error("Error al guardar director", e);
-=======
-			/*Hubo un error al guardar el archivo y retornamos su HTTP METHODS STATUS.*/
+		/*Hubo un error al guardar el archivo y retornamos su HTTP METHODS STATUS.*/
 	            logger.error("Error al crear director", e);
->>>>>>> 704a0374a716d07e6e8016636858ae59f815206f
 	            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
 	        }
 	    }
