@@ -140,4 +140,4 @@ Sistema de intercambio de jugadores de Futbol.
 
 AUTORES:
 ----
-Fabrizio Cubilla - Oliva Mena
+Fabrizio Cubilla
