@@ -138,6 +138,5 @@ Sistema de intercambio de jugadores de Futbol.
 ----
 16.GET >> http://localhost:8080/empleado/consulta?ci=1234
 
-AUTORES:
 ----
 Fabrizio Cubilla
